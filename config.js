@@ -24,15 +24,15 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'Brooklyn Army Terminal',
-            image: './assets/san-fran.jpeg',
+           title: 'The Interborough Express: Brooklyn and Queens',
+            image: '',
             description: 'The first chapter contains a title, image, and camera view for San Francisco, California. Update the chapter data to make it your own.',
-            location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: 0
-            },
+           location: {
+    center: [-73.95, 40.69],
+    zoom: 9.2,
+    pitch: 0,
+    bearing: 0
+},
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
